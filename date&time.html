@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url(./img/date&time.jpg);
+                background-size:cover;
+                
+            }
+            div{
+                height: 300px;
+                width: 600px;
+               
+                margin: auto;
+                margin-top: 90px;
+                
+            }
+            h1{
+            text-align: center;
+            color: rgb(235, 183, 183);
+            
+            size: 30px;
+            text-shadow: 0 0 3px red, 0 0 10px blue;
+            }
+            button{
+                
+                background-color: rgb(65, 66, 66);
+                border-radius: 50px;
+                width: 200px;
+                height: 30px;
+                color: whitesmoke;
+                margin-left: 180px;            }
+
+        </style>
+
+    </head>
+    <body>
+       <div><h1>Check  DATE & TIME<br>Here</h1>
+        
+           
+        <button type="button" onclick="document.getElementById('demo') .innerHTML=Date()">Click Me</button>
+        <p id="demo"></p>      
+       </div>
+    </body>
+</html>
